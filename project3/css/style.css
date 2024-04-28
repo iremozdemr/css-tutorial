@@ -1,0 +1,44 @@
+.p1{
+    background-color: blue;
+    color: white;
+}
+
+.p2{
+    background: pink;
+    color: black;
+}
+/*background-color = background*/
+
+.p3{
+    background: papayawhip;
+    color: rgb(255,0,0);
+}
+
+.p4{
+    background: papayawhip;
+    color: rgb(0,255,0);
+}
+
+.p5{
+    background: papayawhip;
+    color: rgb(0,0,255);
+}
+/*rgb(red,green,blue)*/
+
+.p6{
+    background-color: lightcyan;
+    color: rgba(0, 0, 0, 1);
+}
+
+.p7{
+    background-color: lightcyan;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.p8{
+    background-color: lightcyan;
+    color: rgba(0, 0, 0, 0);
+}
+/*rgba(red,green,blue,alpha)*/
+/*alpha 0 ile 1 arasındadır*/
+/*alpha rengin saydamlığını belirtir*/
