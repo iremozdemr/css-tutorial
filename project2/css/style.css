@@ -1,0 +1,66 @@
+body{
+    font-size: 22px;
+    /*font-size body'nin içindeki elementler tarafından inherit edilir*/
+    border: 3px solid black;
+    /*border body'nin içindeki elementler tarafından inherit edilmez*/
+}
+/*alt elementler tarafından inherit edilir*/
+
+html{
+    font-style: italic;
+    border: 3px solid red;
+}
+/*alt elementler tarafından inherit edilir*/
+
+*{
+    border: 3px solid yellow;
+}
+/*tüm alt elementler seçilir*/
+
+p{
+    color: blue;
+}
+
+#first-p{
+    color: chocolate;
+}
+
+#second-p{
+    color: brown;
+}
+
+#third-p{
+    color: cadetblue;
+}
+
+.red-p{
+    color: red;
+}
+
+/*
+öncelik sırası:
+-id
+-class
+-element
+*/
+
+h5 span {
+    background-color: blue;
+}
+/*h5'in içindeki span'i seçer*/
+
+h6, span {
+    background-color: pink;
+}
+/*h6'yı ve span'i seçer*/
+
+h7{
+    color: crimson!important;
+}
+
+h7{
+    color: cornflowerblue;
+}
+/*color: cornflowerblue olması gerekiyordu*/
+/*!important eklendiği için*/
+/*color: crimson oldu*/
