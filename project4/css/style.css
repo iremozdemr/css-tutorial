@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*default olan tüm boşlukları sıfırlar*/
+
+body{
+    width: 100%;
+}
+/*body genişliği = html genişliği*/
+
+body{
+    min-height: 100vh;
+}
+
+#title1{
+    border: 2px solid red;
+}
+
+#title2{
+    border: 2px solid red;
+    width: 100%;
+}
+/*default olarak width = 100%*/
+/*parent elementin yüzde yüzü*/
+
+#title3{
+    border: 2px solid red;
+    width: 50%;
+}
+/*parent elementin yüzde ellisi*/
+
+#title4{
+    border: 2px solid red;
+    width: 200%;
+}
+/*parent elementin yüzde iki yüzü*/
+
+#p1{
+    
+}
+
+#p2{
+    font-size: 16px;
+}
+/*default olarak font-size = 16px*/
+
+header{
+    font-size: 50px;
+}
+
+#text1{
+    font-size: 1rem;
+}
+/*parent element ile aynı*/
+
+#text2{
+    font-size: 0.5rem;
+}
+/*parent elementin yarısı*/
+
+#button1{
+    border: 2px solid black;
+    font-size: 4rem;
+}
+
+#button2{
+    border: 2px solid black;
+    font-size: 4rem;
+    padding: 2em;
+}
+/*font size = 4rem*/
+/*padding = 8rem*/
+
+#first-h2{
+    border: 2px solid pink;
+}
+
+#second-h2{
+    border: 2px solid pink;
+    width: 40ch;
+}
+/*ch bir satırda olabilecek karakter sayısını ayarlar*/
