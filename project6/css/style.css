@@ -1,0 +1,69 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+#p1{
+    text-decoration:line-through;
+}
+
+#p2{
+    text-decoration: overline;
+}
+
+#p3{
+    text-decoration: underline;
+}
+
+#p4{
+    text-decoration: none;
+}
+/* default olarak text-decoration = none */
+
+#p5{
+    text-transform: capitalize;
+}
+
+#p6{
+    text-align: center;
+}
+
+#p7{
+    text-align: right;
+}
+
+#p8{
+    text-align: left;
+}
+/* default olarak text-align = left */
+
+#p9{
+    text-align: justify;
+}
+/* her satırın bitişi hizalanır */
+
+#p10{
+    text-indent: 5em;
+}
+/* paragrafın ilk satırı indent edilir */
+
+#p11{
+    line-height: 1.5;
+}
+
+#p12{
+    letter-spacing: 0.1em;
+}
+
+#p13{
+    word-spacing: 0.7em;
+}
+
+#p14{
+    font-weight: 900;
+}
+
+#p15{
+    font-style: italic;
+}
