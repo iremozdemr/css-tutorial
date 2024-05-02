@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#link1{
+    text-decoration: underline;
+}
+/* default */
+
+#link2{
+    text-decoration: none;
+}
+
+#link3{
+    cursor: not-allowed;
+}
+/* hover edildiğinde uyarı işareti çıkar */
+
+#a:link{
+    color: brown;
+}
+/* a normal, unvisited link */
+
+#a:visited{
+    color: aqua;
+}
+/* a link the user has visited */
+
+#a:hover{
+    color: pink;
+}
+/* a link when the user mouses over it */
+
+#a:active{
+    color: darkcyan;
+}
+/* a link the moment it is clicked */
