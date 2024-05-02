@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+p{
+    background-color: gray;
+}
+
+span{
+    background-color: black;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    height: 200px;
+    padding: 1rem;
+}
+/* inline elemente */
+/* margin-top eklenemez */
+/* margin-bottom eklenemez */
+/* height eklenemez */
+/* padding eklenebilir */
+
+/* p -> block */
+/* div -> block */
+/* canvas -> block */
+/* header -> block */
+/* footer -> block */
+/* section -> block */
+/* video -> block */
+/* ol -> block */
+/* ul -> block */
+/* form -> block */
+/* table -> block */
+/* article -> block */
+/* h1-h6 -> block */
+/* main -> block */
+/* nav -> block */
+
+/* span -> inline */
+/* code -> inline */
+/* img -> inline */
+/* a -> inline */
+/* button-> inline */
