@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body{
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+#ol1{
+    list-style-type: decimal;
+
+    color: blue;
+}
+/* default */
+
+#ol2{
+    list-style-type: lower-latin;
+
+    color: blue;
+}
+
+#ol3{
+    list-style-type: circle;
+
+    color: blue;
+}
+/* unordered list gibi görünüyor */
+
+#ol4{
+    list-style-position: inside;
+
+    color: blue;
+}
+
+#ol5{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    color: blue;
+}
+/* tüm style'ları kaldırır */
+
+#ul1{
+    list-style-image: url('../checkmark.png');
+
+    color: palevioletred;
+}
+
+
+#ul2{
+    list-style-type: square;
+
+    color: palevioletred;
+}
+
+#ul3 li:nth-child(2){
+    color: red;
+}
+
+#ul4 li:nth-child(odd){
+    color: red;
+}
+
+#ul5 li::marker{
+    color: chartreuse;
+}
